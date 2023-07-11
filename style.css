@@ -26,10 +26,14 @@ body {
 }
 
 .screen {
+  display: flex;
   border: solid rgb(19, 18, 18) 2px;
   height: 70px;
   border-radius: 20px;
   background-color: black;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 20px;
 }
 
 button {
@@ -61,4 +65,9 @@ button {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+span {
+  color: aliceblue;
+  font-size: 25px;
 }
